@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#contenedor{
+	width: 100%;
+	margin: auto;
+}
+
+.nav{
+	color: #FFFFFF;
+	background: #000000;
+	padding: 10px 30px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.nav:hover{
+	background: #2E2EFD;
+}
+
+nav{
+	background-image:url("img/header.jpg");
+	padding-bottom: 580px;
+}
+
+.section{
+	width: 85%;
+	margin: auto;
+}
+
+.header{
+	width: 100%;
+}
+
+body{
+	background-image: url( "img/unnamed.jpg")
+}
+
+.imgbio{
+	width: 30%;
+	border-radius: 500px;
+	margin-top: 10%;
+	float: left;
+}
+
+.h1{
+	font-size: 120px;
+	text-align: center;
+	font-family: 'Yatra One', cursive;
+	margin-top: 30%;
+	padding-right: 150px;
+	margin-bottom: 20%;
+}
+
+h2{
+	font-size: 100px;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Yatra One', cursive;
+}
+
+.float {
+	float:right;
+	flex-flow: wrap;
+}
+
+h3{
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+}
+
+.textos{
+	font-family: 'Abel', sans-serif;
+	clear: both;
+	font-size: 130%;
+}
+
+.footer{
+	width: 100%;
+}
+
+.biografia2{
+	float: right;
+	font-family: 'Abel', sans-serif;
+	margin-bottom: 20px;
+	font-size: 130%
+}
+
+p{
+	margin-top: 10px;
+}
+
+.pelis{
+	width: 100%;
+	clear: both;
+}
+
+.contenedor{
+	width: 30%;
+	float: left;
+	margin-left: 3%;
+}
